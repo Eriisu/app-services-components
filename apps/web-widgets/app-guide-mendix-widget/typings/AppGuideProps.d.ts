@@ -4,7 +4,7 @@
  * @author Mendix UI Content Team
  */
 import { CSSProperties } from "react";
-import { ActionValue, EditableValue } from "mendix";
+import { EditableValue } from "mendix";
 
 export type PlacementEnum = "auto" | "top" | "bottom" | "left" | "right";
 
@@ -26,9 +26,8 @@ export interface AppGuideContainerProps {
     name: string;
     class: string;
     style?: CSSProperties;
-    tabIndex: number;
+    tabIndex?: number;
     userWelcome: EditableValue<boolean>;
-    onUserWelcomeChange?: ActionValue;
     isPageCall: boolean;
     showSkipButton: boolean;
     showProgress: boolean;
@@ -41,8 +40,10 @@ export interface AppGuideContainerProps {
 }
 
 export interface AppGuidePreviewProps {
-    class: string;
+    className: string;
     style: string;
+    styleObject?: CSSProperties;
+    readOnly: boolean;
     userWelcome: string;
     onUserWelcomeChange: {} | null;
     isPageCall: boolean;

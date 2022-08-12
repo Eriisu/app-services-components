@@ -10,7 +10,7 @@
         <propertyGroup caption="General">
             <property key="userWelcome" type="attribute" onChange="onUserWelcomeChange">
                 <caption>Welcome attribute</caption>
-                <description>The attribute where the user setting is stored for wheather or not to show the App Product Guide</description>
+                <description>The attribute where the user setting is stored for whether or not to show the App Product Guide</description>
                 <attributeTypes>
                     <attributeType name="Boolean"/>
                 </attributeTypes>
@@ -28,7 +28,7 @@
 
             <property key="showSkipButton" type="boolean" defaultValue="true">
 				<caption>Show Skip Button</caption>
-				<description>Show the ship button in the floating card</description>
+				<description>Show the skip button in the floating card</description>
 			</property>
 
             <property key="showProgress" type="boolean" defaultValue="false">

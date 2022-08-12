@@ -1,6 +1,6 @@
 import { Component, ReactNode, createElement } from "react";
 
-import JoyrideInit from "./components/JoyrideInit";
+import JoyrideInit  from "./components/JoyrideInit";
 
 import { ReactAppGuideContainerProps } from "../typings/ReactAppGuideProps";
 
